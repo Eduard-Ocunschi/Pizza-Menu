@@ -38,9 +38,7 @@ body {
 }
 
 .header h1 {
-  /* Non-accessible color */
   color: #edc84b;
-  /* color: #af8602; */
 
   text-transform: uppercase;
   text-align: center;
@@ -176,6 +174,12 @@ body {
 
 .btn:hover {
   background-color: #e9bb24;
+}
+
+@media (max-width: 600px) {
+  .pizzas {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*
